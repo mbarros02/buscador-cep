@@ -1,12 +1,12 @@
-package main.java.com.marcello.buscadorcep.service;
+package com.marcello.buscadorcep.service;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import main.java.com.marcello.buscadorcep.exception.CepInvalidoException;
-import main.java.com.marcello.buscadorcep.exception.CepNaoEncotradoException;
-import main.java.com.marcello.buscadorcep.exception.FalhaNaComunicacaoException;
-import main.java.com.marcello.buscadorcep.model.Endereco;
+import com.marcello.buscadorcep.exception.CepInvalidoException;
+import com.marcello.buscadorcep.exception.CepNaoEncotradoException;
+import com.marcello.buscadorcep.exception.FalhaNaComunicacaoException;
+import com.marcello.buscadorcep.model.Endereco;
 
 public abstract class BuscadorDeCepAbstrato implements BuscadorDeCep {
 
@@ -17,12 +17,11 @@ public abstract class BuscadorDeCepAbstrato implements BuscadorDeCep {
     return montarEndereco(resposta);
     }
 
-    @Override
     public void validarCep(String cep) throws CepInvalidoException {
         if (cep.length() > 8) {
             throw new CepInvalidoException("CEP Inválido! Mais de 8 carecteres!");
         } else if (cep.length() < 8) {
-            throw new CepInvalidoException("CEP Inválida! Menos de 8 caracteres!");
+            throw new CepInvalidoException("CEP Inválido! Menos de 8 caracteres!");
         }
     }
 

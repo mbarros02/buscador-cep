@@ -1,8 +1,8 @@
-package main.java.com.marcello.buscadorcep;
+package com.marcello.buscadorcep;
 
-import main.java.com.marcello.buscadorcep.menuCli.Menu;
-import main.java.com.marcello.buscadorcep.service.BuscadorDeCep;
-import main.java.com.marcello.buscadorcep.service.ViaCepBuscador;
+import com.marcello.buscadorcep.menuCli.Menu;
+import com.marcello.buscadorcep.service.BuscadorDeCep;
+import com.marcello.buscadorcep.service.ViaCepBuscador;
 
 import java.net.http.HttpClient;
 

@@ -1,4 +1,4 @@
-package main.java.com.marcello.buscadorcep.model;
+package com.marcello.buscadorcep.model;
 
 public class Endereco {
 

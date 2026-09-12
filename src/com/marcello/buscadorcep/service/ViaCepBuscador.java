@@ -1,13 +1,12 @@
-package main.java.com.marcello.buscadorcep.service;
+package com.marcello.buscadorcep.service;
 
-import main.java.com.marcello.buscadorcep.exception.FalhaNaComunicacaoException;
+import com.marcello.buscadorcep.exception.FalhaNaComunicacaoException;
 
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.Scanner;
 
 public class ViaCepBuscador extends BuscadorDeCepAbstrato {
 
@@ -28,12 +27,9 @@ public class ViaCepBuscador extends BuscadorDeCepAbstrato {
         try {
             response = client
                     .send(req, HttpResponse.BodyHandlers.ofString());
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+        } catch (IOException | InterruptedException e) {
+            throw new FalhaNaComunicacaoException("Falha ao comunicar com a API.");
         }
-
         String json = response.body();
         return json;
     }

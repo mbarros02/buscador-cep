@@ -1,8 +1,8 @@
-package main.java.com.marcello.buscadorcep.menuCli;
+package com.marcello.buscadorcep.menuCli;
 
-import main.java.com.marcello.buscadorcep.exception.CepException;
-import main.java.com.marcello.buscadorcep.model.Endereco;
-import main.java.com.marcello.buscadorcep.service.BuscadorDeCep;
+import com.marcello.buscadorcep.exception.CepException;
+import com.marcello.buscadorcep.model.Endereco;
+import com.marcello.buscadorcep.service.BuscadorDeCep;
 
 import java.util.Scanner;
 
