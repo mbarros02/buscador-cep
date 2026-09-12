@@ -37,4 +37,16 @@ public class Endereco {
     public String getEstado() {
         return estado;
     }
+
+    @Override
+    public String toString() {
+        return "Endereço:" + '\n' + '\n' +
+                "Bairro: " + bairro + '\n' +
+                "CEP: " + cep + '\n' +
+                "Logradouro: " + logradouro + '\n' +
+                "Complemento: " + complemento + '\n' +
+                "Localidade: " + localidade + '\n' +
+                "UF: " + uf + '\n' +
+                "Estado: " + estado;
+    }
 }
