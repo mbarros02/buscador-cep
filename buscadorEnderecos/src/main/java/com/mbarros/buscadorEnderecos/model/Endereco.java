@@ -1,4 +1,4 @@
-package com.marcello.buscadorcep.model;
+package com.mbarros.buscadorEnderecos.model;
 
 public class Endereco {
 

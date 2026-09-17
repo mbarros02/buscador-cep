@@ -1,8 +1,8 @@
-package com.marcello.buscadorcep.view;
+package com.mbarros.buscadorEnderecos.view;
 
-import com.marcello.buscadorcep.exception.CepException;
-import com.marcello.buscadorcep.model.Endereco;
-import com.marcello.buscadorcep.service.BuscadorDeCep;
+import com.mbarros.buscadorEnderecos.exception.CepException;
+import com.mbarros.buscadorEnderecos.model.Endereco;
+import com.mbarros.buscadorEnderecos.service.BuscadorDeCep;
 
 import java.util.Scanner;
 

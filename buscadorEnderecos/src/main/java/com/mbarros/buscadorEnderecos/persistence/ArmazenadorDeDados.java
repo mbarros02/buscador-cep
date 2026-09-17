@@ -1,4 +1,4 @@
-package com.marcello.buscadorcep.persistence;
+package com.mbarros.buscadorEnderecos.persistence;
 
 import com.marcello.buscadorcep.model.Endereco;
 

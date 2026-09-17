@@ -1,12 +1,9 @@
-package com.marcello.buscadorcep.service;
+package com.mbarros.buscadorEnderecos.service;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import com.marcello.buscadorcep.exception.CepInvalidoException;
-import com.marcello.buscadorcep.exception.CepNaoEncotradoException;
-import com.marcello.buscadorcep.exception.FalhaNaComunicacaoException;
-import com.marcello.buscadorcep.model.Endereco;
+import com.mbarros.buscadorEnderecos.exception.CepInvalidoException;
+import com.mbarros.buscadorEnderecos.exception.CepNaoEncotradoException;
+import com.mbarros.buscadorEnderecos.exception.FalhaNaComunicacaoException;
+import com.mbarros.buscadorEnderecos.model.Endereco;
 
 public abstract class BuscadorDeCepAbstrato implements BuscadorDeCep {
 

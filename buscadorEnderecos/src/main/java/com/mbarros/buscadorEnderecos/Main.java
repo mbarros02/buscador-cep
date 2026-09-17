@@ -1,8 +1,8 @@
-package com.marcello.buscadorcep;
+package com.mbarros.buscadorEnderecos;
 
-import com.marcello.buscadorcep.view.Menu;
-import com.marcello.buscadorcep.service.BuscadorDeCep;
-import com.marcello.buscadorcep.service.ViaCepBuscador;
+import com.mbarros.buscadorEnderecos.service.BuscadorDeCep;
+import com.mbarros.buscadorEnderecos.service.ViaCepBuscador;
+import com.mbarros.buscadorEnderecos.view.Menu;
 
 import java.net.http.HttpClient;
 

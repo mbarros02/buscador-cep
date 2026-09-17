@@ -1,4 +1,4 @@
-package com.marcello.buscadorcep.persistence;
+package com.mbarros.buscadorEnderecos.persistence;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

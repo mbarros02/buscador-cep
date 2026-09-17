@@ -1,6 +1,7 @@
-package com.marcello.buscadorcep.service;
+package com.mbarros.buscadorEnderecos.service;
 
-import com.marcello.buscadorcep.exception.FalhaNaComunicacaoException;
+import com.mbarros.buscadorEnderecos.exception.FalhaNaComunicacaoException;
+import com.mbarros.buscadorEnderecos.service.BuscadorDeCepAbstrato;
 
 import java.io.IOException;
 import java.net.URI;
