@@ -22,9 +22,9 @@ dependência, roteamento HTTP, serialização, etc).
 Pré-requisitos: JDK 17+ e Maven
 
 \`\`\`bash
-git clone https://github.com/seu-usuario/buscador-cep.git
+git clone https://github.com/mbarros02/buscador-cep.git
 cd buscador-cep
-mvn compile exec:java -Dexec.mainClass="com.seunome.buscadorcep.Main"
+mvn compile exec:java -Dexec.mainClass="com.mbarros.buscadorcep.Main"
 \`\`\`
 
 Digite um CEP quando solicitado e veja o endereço retornado.
@@ -33,7 +33,7 @@ Digite um CEP quando solicitado e veja o endereço retornado.
 
 - Java 17
 - HttpClient (java.net.http) — requisições HTTP nativas
-- Jackson/Gson — parsing de JSON *(ajuste conforme o que você usar)*
+- Gson — parsing de JSON *(ajuste conforme o que você usar)*
 - API [ViaCEP](https://viacep.com.br/)
 
 ## 📌 Roadmap
