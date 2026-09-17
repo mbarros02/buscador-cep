@@ -2,6 +2,7 @@ package com.mbarros.buscadorEnderecos.view;
 
 import com.mbarros.buscadorEnderecos.exception.CepException;
 import com.mbarros.buscadorEnderecos.model.Endereco;
+import com.mbarros.buscadorEnderecos.persistence.ArmazenadorArquivoJson;
 import com.mbarros.buscadorEnderecos.service.BuscadorDeCep;
 
 import java.util.Scanner;

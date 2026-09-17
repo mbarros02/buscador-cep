@@ -1,6 +1,6 @@
 package com.mbarros.buscadorEnderecos.persistence;
 
-import com.marcello.buscadorcep.model.Endereco;
+import com.mbarros.buscadorEnderecos.model.Endereco;
 
 public interface ArmazenadorDeDados {
 

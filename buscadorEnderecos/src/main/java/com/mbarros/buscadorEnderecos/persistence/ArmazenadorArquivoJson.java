@@ -1,8 +1,7 @@
 package com.mbarros.buscadorEnderecos.persistence;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.marcello.buscadorcep.model.Endereco;
+import com.mbarros.buscadorEnderecos.model.Endereco;
 
 import java.io.FileWriter;
 import java.io.IOException;

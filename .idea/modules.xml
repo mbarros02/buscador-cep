@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/buscador-cep.iml" filepath="$PROJECT_DIR$/buscador-cep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buscadorEnderecos.iml" filepath="$PROJECT_DIR$/buscadorEnderecos.iml" />
     </modules>
   </component>
 </project>
