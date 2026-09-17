@@ -12,7 +12,7 @@ public class Main {
 
         ArmazenadorArquivoJson json = new ArmazenadorArquivoJson();
         BuscadorDeCep buscador = new ViaCepBuscador(HttpClient.newHttpClient());
-        Menu menu = new Menu(buscador);
+        Menu menu = new Menu(buscador, json);
         menu.iniciar();
 
     }

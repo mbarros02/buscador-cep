@@ -10,10 +10,12 @@ import java.util.Scanner;
 public class Menu {
 
     private final BuscadorDeCep buscador;
+    private final ArmazenadorArquivoJson armazenador;
     private final Scanner scan;
 
-    public Menu(BuscadorDeCep buscador) {
+    public Menu(BuscadorDeCep buscador, ArmazenadorArquivoJson armazenador) {
         this.buscador = buscador;
+        this.armazenador = armazenador;
         this.scan = new Scanner(System.in);
     }
 
@@ -61,6 +63,7 @@ public class Menu {
         try {
             Endereco endereco = buscador.buscarCep(cep);
             exibirEndereco(endereco);
+            armazenador.salvarJson(endereco);
         } catch (CepException e) {
             System.out.println("Erro: " + e.getMessage());
         }
