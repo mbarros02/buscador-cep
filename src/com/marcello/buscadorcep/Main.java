@@ -1,6 +1,6 @@
 package com.marcello.buscadorcep;
 
-import com.marcello.buscadorcep.menuCli.Menu;
+import com.marcello.buscadorcep.view.Menu;
 import com.marcello.buscadorcep.service.BuscadorDeCep;
 import com.marcello.buscadorcep.service.ViaCepBuscador;
 

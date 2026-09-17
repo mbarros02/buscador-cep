@@ -1,4 +1,4 @@
-package com.marcello.buscadorcep.menuCli;
+package com.marcello.buscadorcep.view;
 
 import com.marcello.buscadorcep.exception.CepException;
 import com.marcello.buscadorcep.model.Endereco;
